@@ -109,7 +109,7 @@ module.exports = class WPMCounter
 
       // This is the HTML
       // Yeah... a disaster, just do whatever you want to it lol
-      targetHTML = '<div class="wpm-counter-div" style="padding:2px;margin:0;border-top-left-radius:5px;border-top-right-radius:5px;margin-left:25%;width:50%;background-color:'+rootStyles.getPropertyValue('--background-tertiary')+';"><h2 id="wpm-counter" style="text-align:center;color:#fff;">0 wpm</h2></div>'
+      targetHTML = '<div style="padding:2px;margin:0;border-top-left-radius:5px;border-top-right-radius:5px;margin-left:25%;width:50%;background-color:'+rootStyles.getPropertyValue('--background-tertiary')+';"><h2 id="wpm-counter" style="text-align:center;color:#fff;">0 wpm</h2></div>'
       
       rootInterval = setInterval(root_function, 500)
     }
